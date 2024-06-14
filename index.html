@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 ,user-sclable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- content="width=device-width, initial-scale=1.0, maximum-scale=1 ,user-sclable=no"
+     *******This syntax prevents the users from zooming the website on mobile********* -->
+    <h1 id="h1">Stop-Watch</h1>
+    <div class="d1" id="d1">
+        <div class="d2" id="d2">
+            <div class="up">
+                <div id="display">
+                    00:00:00:00
+                </div>
+            </div>
+            <div class="down" id="down">
+                <button class="btn" onclick="start()"><img src="start.png" alt="""><p>Start</p></button>
+                <button class="btn" onclick="stop()"><img src="stop.png" alt=""><p>Stop</p></button>
+                <button class="btn" onclick="reset()"><img src="reset.png" alt=""><p>Reset</p></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
